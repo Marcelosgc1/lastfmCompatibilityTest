@@ -83,7 +83,7 @@ for i in users:
                 dicTrk[r['track_mbid']].add(i)
 
 
-print(dicUsers)
+#print(dicUsers)
 
 
 path = Path("output")
