@@ -2,6 +2,7 @@ import csv
 from classes import *
 from pathlib import Path
 import heapq as pq
+import os
 
 
 def write_formatted_value(writer, value, weight):
@@ -45,9 +46,10 @@ artistsList = []
 albunsList = []
 tracksList = []
 
-users = ['haimond','Jackson_Joe','Marcelosgc1','OsvaldoMusicas','PbzSmith','suicidxbladxs']
 
-for i in users:
+
+for i in os.listdir("users"):
+    i = i[:-4]
     dicUsers[i] = 0
     temp = {}
     with open('users/' + i + '.csv', newline='', encoding='utf-8') as csvfile:
