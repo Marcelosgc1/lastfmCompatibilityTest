@@ -14,6 +14,8 @@ Utilizei duas técnicas para tentar avaliar, a primeira é mais intuitiva:
 
 ![equation](https://latex.codecogs.com/svg.image?\huge&space;\bg{white}\sum_{x=1}^{n}\log(SM(x))\equiv\prod_{x=1}^{n}SM(X))
 
+ah sim, eu sei que o código tá porco.
+
 ## Como usar
 Apenas coloque os arquivos .csv seu e de seus amigos na pasta /users e rode main.py
 em /output vão haver os resultados para artista, album e música utilizando os dois métodos apresentados, lá há três campos, o do peso calculado, a música/album/artista e os usuários que escutam o artista
