@@ -12,7 +12,7 @@ Utilizei duas técnicas para tentar avaliar, a primeira é mais intuitiva:
 
 - A outra técnica utiliza uma ideia de logaritmos, para valorizar mais as músicas ouvidas por mais pessoas ao invés de músicas que uma só pessoa escuta muito, a ideia seria tirar o log do número de scrobbles de uma música e somar, mas como a soma dos logs pode ser o log do produto, para essa situação, foi utilizado apenas produto
 
-![equation](https://latex.codecogs.com/svg.image?\huge&space;\bg{white}\sum_{x=1}^{n}\log(SM(x))\equiv\prod_{x=1}^{n}SM(X))
+![equation](https://latex.codecogs.com/svg.image?\huge&space;\bg{white}\sum_{x=1}^{n}\log(SM(x))\equiv\prod_{x=1}^{n}SM(x))
 
 ah sim, eu sei que o código tá porco.
 
